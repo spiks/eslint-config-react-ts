@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spiks",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "eslint config spiks",
   "main": "index.js",
   "scripts": {},
