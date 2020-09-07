@@ -15,8 +15,8 @@ jobs:
         with:
           node-version: 12.X
       - uses: JS-DevTools/npm-publish@v1
-          with:
-            token: ${{ secrets.NPM_TOKEN }}
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
 #      - name: npm publish
 #        run: |
 #          npm config set //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
