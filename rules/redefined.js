@@ -23,12 +23,7 @@ module.exports = {
     'object-curly-spacing': ['error', 'always'],
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
-    '@typescript-eslint/explicit-function-return-type': [
-      'error',
-      {
-        allowExpressions: true,
-      },
-    ],
+    '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-unused-expressions': [
       'warn',
       {
@@ -82,6 +77,6 @@ module.exports = {
     'no-nested-ternary': 'off',
     'prefer-template': 'off',
     'no-alert': 'off',
-    'consistent-return': 'off'
+    'consistent-return': 'off',
   },
 };
