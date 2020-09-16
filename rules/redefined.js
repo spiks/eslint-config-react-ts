@@ -88,5 +88,6 @@ module.exports = {
     'prefer-template': 'off',
     'no-alert': 'off',
     'consistent-return': 'off',
+    'max-classes-per-file': 'off',
   },
 };
