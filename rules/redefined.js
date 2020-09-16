@@ -23,7 +23,12 @@ module.exports = {
     'object-curly-spacing': ['error', 'always'],
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
-    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-function-return-type': [
+      'error',
+      { allowExpressions: true },
+    ],
+    '@typescript-eslint/no-use-before-define': 'off',
+    '@typescript-eslint/dot-notation': 'off',
     '@typescript-eslint/no-unused-expressions': [
       'warn',
       {
@@ -35,6 +40,11 @@ module.exports = {
       {
         allowForLoopAfterthoughts: true,
       },
+    ],
+    '@typescript-eslint/lines-between-class-members': [
+      'error',
+      'always',
+      { exceptAfterSingleLine: true },
     ],
     'padding-line-between-statements': [
       'error',

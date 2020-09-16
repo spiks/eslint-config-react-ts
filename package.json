@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spiks",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "eslint config spiks",
   "main": "index.js",
   "scripts": {},
@@ -16,7 +16,6 @@
     "eslint-plugin-import": "2.21.2",
     "eslint-plugin-jsx-a11y": "6.3.1",
     "eslint-plugin-prettier": "3.1.4",
-    "eslint-plugin-react": "7.20.0",
     "eslint-plugin-react-hooks": "4.0.4"
   },
   "devDependencies": {
