@@ -1,4 +1,13 @@
 module.exports = {
+  overrides: [
+    {
+      files: [ '**/*/icons/**/*.tsx'],
+      rules: {
+        'max-len': 'off',
+      },
+    },
+  ],
+
   rules: {
     'react/prop-types': 'off',
     'react/jsx-props-no-spreading': 'off',
@@ -12,10 +21,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-cycle': 'off',
     curly: ['error', 'all'],
-    'no-shadow': [
-      'error',
-      { builtinGlobals: false, hoist: 'never', allow: ['value'] },
-    ],
     'max-len': ['error', { code: 120 }],
     'jsx-a11y/no-static-element-interactions': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
@@ -23,22 +28,12 @@ module.exports = {
     'object-curly-spacing': ['error', 'always'],
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
-    '@typescript-eslint/explicit-function-return-type': [
-      'error',
-      { allowExpressions: true },
-    ],
     '@typescript-eslint/no-use-before-define': 'off',
     '@typescript-eslint/dot-notation': 'off',
     '@typescript-eslint/no-unused-expressions': [
       'warn',
       {
         allowTernary: true,
-      },
-    ],
-    'no-plusplus': [
-      'error',
-      {
-        allowForLoopAfterthoughts: true,
       },
     ],
     '@typescript-eslint/lines-between-class-members': [
@@ -83,11 +78,37 @@ module.exports = {
         next: '*',
       },
     ],
-    'no-console': 'warn',
     'no-nested-ternary': 'off',
     'prefer-template': 'off',
     'no-alert': 'off',
     'consistent-return': 'off',
     'max-classes-per-file': 'off',
+    'arrow-parens': ['error', 'as-needed'],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: [
+          '**/category.ts',
+          '**/*.stories.tsx',
+          '**/types.ts',
+        ],
+      },
+    ],
+    //: TODO сделать правило корректным
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/no-shadow': 'off',
+    'no-plusplus': 'off',
+    'default-case': 'off',
+    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'no-case-declarations': 'off',
+    'no-continue': 'off',
+    'prefer-destructuring': 'off',
+    'object-curly-newline': ['error', {
+      'ObjectExpression': {
+        consistent: true,
+      },
+      'ObjectPattern': { 'multiline': true },
+      'ImportDeclaration': { 'multiline': true},}
+    ],
   },
 };

@@ -3,17 +3,12 @@ module.exports = {
   env: {
     browser: true,
   },
-  plugins: ['@typescript-eslint', 'prettier'],
+  plugins: ['@typescript-eslint'],
   extends: [
     'airbnb-typescript',
     'airbnb/hooks',
     './rules/redefined',
-    'prettier/@typescript-eslint',
-    'prettier',
   ],
-  rules: {
-    'prettier/prettier': 'error',
-  },
   ignorePatterns: ['*.js'],
   settings: {
     react: {
