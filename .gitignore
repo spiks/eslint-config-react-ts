@@ -1,4 +1,3 @@
-node_modules
-.idea
-.vscode
-.npmrc
+/node_modules
+/.idea
+/*.tgz

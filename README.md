@@ -1,18 +1,18 @@
-# eslint-config-spiks
-Eslint configuration for React Typescript project.
+# eslint-config-react-ts
+Eslint configuration for Typescript React projects.
 
-## Usage 
+## Usage
 1) Install dependencies:
     
-    `npm i eslint-config-spiks --save-dev`
+`npm i -D @spiks/react-ts-eslint-config`
 
-2) Create `.eslintrc` file in the same directory with your `tsconfig.json`
+2) Create `.eslintrc` file in the root directory
 
-    ```
-   {
-       "extends": "eslint-config-spiks",
-       "parserOptions": {
-         "project": "./tsconfig.json"
-       }
+```
+{
+   "extends": "@spiks/eslint-config-react-ts",
+   "parserOptions": {
+     "project": "./tsconfig.json"
    }
-    ```
+}
+```

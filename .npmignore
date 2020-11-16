@@ -1,2 +1,4 @@
-.idea
-package-lock.json
+/.idea
+/.github
+/package-lock.json
+/*.tgz

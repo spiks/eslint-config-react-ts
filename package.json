@@ -1,11 +1,7 @@
 {
-  "name": "eslint-config-spiks",
-  "version": "0.0.11",
-  "description": "eslint config spiks",
+  "name": "@spiks/eslint-config-react-ts",
+  "version": "0.0.1",
   "main": "index.js",
-  "scripts": {},
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.7.0",
     "@typescript-eslint/parser": "^4.7.0",
