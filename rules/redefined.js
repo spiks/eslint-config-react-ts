@@ -21,7 +21,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-cycle': 'off',
     curly: ['error', 'all'],
-    'max-len': ['error', { code: 120 }],
+    'max-len': ['error', { code: 120, ignoreComments: true }],
     'jsx-a11y/no-static-element-interactions': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
     'jsx-a11y/no-noninteractive-element-interactions': 'off',
