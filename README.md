@@ -4,7 +4,7 @@ Eslint configuration for Typescript React projects.
 ## Usage
 Install dependencies:
     
-`npm i -D @spiks/react-ts-eslint-config`
+`npm i -D @spiks/eslint-config-react-ts`
 
 Create `.eslintrc` file in the root directory
 
