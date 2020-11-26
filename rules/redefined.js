@@ -111,5 +111,8 @@ module.exports = {
       'ObjectPattern': { 'multiline': true },
       'ImportDeclaration': { 'multiline': true},}
     ],
+    'react/jsx-indent': ['error', 2, {
+      indentLogicalExpressions: true,
+    }],
   },
 };
