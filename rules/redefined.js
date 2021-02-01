@@ -114,5 +114,8 @@ module.exports = {
     'react/jsx-indent': ['error', 2, {
       indentLogicalExpressions: true,
     }],
+    "no-else-return": "off",
+    "no-lonely-if": "off",
+    "brace-style": ["error", "1tbs", { "allowSingleLine": false }]
   },
 };
