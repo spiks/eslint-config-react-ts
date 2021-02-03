@@ -75,16 +75,6 @@ module.exports = {
     'consistent-return': 'off',
     'max-classes-per-file': 'off',
     'arrow-parens': ['error', 'as-needed'],
-    'import/no-extraneous-dependencies': [
-      'error',
-      {
-        devDependencies: [
-          '**/category.ts',
-          '**/*.stories.tsx',
-          '**/types.ts',
-        ],
-      },
-    ],
     //: TODO сделать правило корректным
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-shadow': 'off',
