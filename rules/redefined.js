@@ -1,13 +1,4 @@
 module.exports = {
-  overrides: [
-    {
-      files: [ '**/*/icons/**/*.tsx'],
-      rules: {
-        'max-len': 'off',
-      },
-    },
-  ],
-
   rules: {
     'react/prop-types': 'off',
     'react/jsx-props-no-spreading': 'off',
