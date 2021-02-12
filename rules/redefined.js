@@ -78,6 +78,7 @@ module.exports = {
     //: TODO сделать правило корректным
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-shadow': 'off',
+    "@typescript-eslint/type-annotation-spacing": "error",
     'no-plusplus': 'off',
     'default-case': 'off',
     'no-console': ['warn', { allow: ['warn', 'error'] }],
